@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #c7a97c;
+}
+
+header {
+    background-color: #301d10;
+    height: 100px;
+}
+
+header h1 {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    margin-right: 20px;
+    color: #c7a97c;
+}
+
+nav {
+    position: relative;
+    float: right;
+}
+
+nav ul {
+    position: relative;
+    list-style: none;
+    right: 20px;
+}
+
+a {
+    color: #c7a97c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6d5c43;
+    transition: 0.4s;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Banner {
+    margin: 35px 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #4e3825;
+}
+
+#Banner h2 {
+    position: absolute;
+    color: #642c06;
+    top: 350px;
+    left: 800px;
+    font-size: 35px;
+}
+
+#Banner p {
+    position: absolute;
+    top: 390px;
+    left: 776px;
+    color: #642c06;
+    font-weight: bold;
+}
+
+#Tiles {
+    position: relative;
+    height: 600px;
+    filter: grayscale();
+}
+
+button {
+    position: absolute;
+    top: 420px;
+    left: 860px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #642c06;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #331b0c;
+    transition: 0.6s;
+}
+
+#Brushes {
+    padding: 15px 0;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #9b5922;
+    color: rgb(26, 26, 26);
+}
+
+#Brushes:hover #hacksaw {
+    filter: grayscale(0);
+}
+
+#Brushes img {
+    margin: 10px 0;
+    filter: grayscale();
+    border-radius: 20px;
+    height: 300px;
+    transition: 0.4s;
+}
+
+#Brushes p {
+    margin: 5px 0;
+}
+
+#Frames {
+    padding: 15px 0;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #854c1d;
+    color: rgb(37, 37, 37);
+}
+
+#Frames img {
+    margin: 10px 0;
+    filter: grayscale();
+    border-radius: 20px;
+    height: 300px;
+    transition: 0.4s;
+}
+
+#Frames:hover #frames {
+    filter: grayscale(0);
+}
+
+#Frames p {
+    margin: 5px 0;
+}
+
+#Paints {
+    padding: 15px 0;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #613715;
+    color: rgb(153, 153, 153);
+}
+
+#Paints img {
+    margin: 10px 0;
+    filter: grayscale();
+    border-radius: 20px;
+    height: 300px;
+    transition: 0.4s;
+}
+
+#Paints:hover #finnish {
+    filter: grayscale(0);
+}
+
+#Paints p {
+    margin: 5px 0;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #301d10;
+    color: #c7a97c;
+}
+
+footer p {
+    position: relative;
+    left: 10px;
+    top: 3px;
+    width: 200px;
+}
