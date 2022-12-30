@@ -200,3 +200,46 @@ footer p {
 .BuyButton:last-child:hover {
     background-color: #472b18;
 }
+
+@media (max-width: 390px) {
+    header h1 {
+        font-size: 30px;
+        top: 5px;
+        left: 10px;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul {
+        top: 10px;
+        left: 0px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+    
+    #Tiles {
+        width: 390px;
+    }
+
+    #Banner h2 {
+        left: 30px;
+    }
+
+    #Banner p {
+        left: 15px;
+    }
+
+    #Contact {
+        left: 100px;
+    }
+
+    body {
+        margin-bottom: 251px;
+    }
+}
